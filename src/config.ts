@@ -86,13 +86,10 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "Beautiful Mizuki!", // 主页横幅主标题
+			title: "小柚的博客", // 主页横幅主标题
 
 			subtitle: [
-				"A Showcase Demo Site",
-				"Carousel Highlight: Innovation",
-				"Carousel Focus: User Experience",
-				"Carousel Spot: Core Advantages",
+				"基于Astro的Mizuki主题",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
@@ -184,22 +181,10 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:link",
 			children: [
 				{
-					name: "GitHub",
-					url: "https://github.com/matsuzaka-yuki/Mizuki",
-					external: true,
-					icon: "fa6-brands:github",
-				},
-				{
 					name: "Bilibili",
-					url: "https://space.bilibili.com/701864046",
+					url: "https://space.bilibili.com/480114990",
 					external: true,
 					icon: "fa6-brands:bilibili",
-				},
-				{
-					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
-					external: true,
-					icon: "mdi:git",
 				},
 			],
 		},
@@ -256,22 +241,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Bilibli",
 			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/701864046",
-		},
-		{
-			name: "Gitee",
-			icon: "mdi:git",
-			url: "https://gitee.com/matsuzakayuki",
-		},
-		{
-			name: "GitHub",
-			icon: "fa6-brands:github",
-			url: "https://github.com/matsuzaka-yuki",
-		},
-		{
-			name: "Discord",
-			icon: "fa6-brands:discord",
-			url: "https://discord.gg/MqW6TcQtVM",
+			url: "https://space.bilibili.com/480114990",
 		},
 	],
 };
